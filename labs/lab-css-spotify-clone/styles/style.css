@@ -1,0 +1,240 @@
+/* All Screen : */
+
+:root {
+  --green: #00b172;
+  --text: 1A1A1A;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+}
+/***************** * start header */
+.navbar {
+  display: flex;
+  background-color: var(--white);
+}
+
+.navbar div:first-child img {
+  max-height: 5vh;
+}
+
+.navbar div:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.navbar nav {
+  display: flex;
+  padding-left: 1rem;
+}
+
+.navbar nav a {
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  text-transform: capitalize;
+  font-size: x-large;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.portada {
+  background-image: url("../images/landing.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/***************** * start main */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+main div {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main h2 {
+  font-size: xx-large;
+  width: fit-content;
+  align-self: center;
+  border-bottom: 2px solid var(--green);
+  padding-bottom: 0.5rem;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30vh;
+  padding: 2rem;
+  text-align: center;
+  justify-content: space-between;
+}
+
+article img {
+  height: 5rem;
+}
+
+article h4 {
+  color: var(--green);
+  font-size: 180%;
+}
+
+article p {
+  font-size: 150%;
+}
+
+/***************** * start footer */
+footer {
+  background-color: var(--green);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 3vw 3vw;
+  color: var(--white);
+}
+
+footer section {
+  display: flex;
+  flex-direction: column;
+}
+
+footer section div {
+  display: flex;
+  flex-direction: row;
+  height: -webkit-fill-available;
+  justify-content: space-around;
+}
+
+footer section div div {
+  display: flex;
+  flex-direction: column;
+}
+footer section h2 {
+  font-size: 200%;
+  width: fit-content;
+  padding: 0.5rem;
+  border-bottom: 2px solid white;
+}
+
+footer section div div h3 {
+  font-size: 180%;
+}
+
+footer section div div p {
+  font-size: 150%;
+}
+
+footer section div img {
+  height: 10vw;
+  align-self: center;
+  margin: 0 1rem;
+}
+
+/***************** * start header */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .navbar div:first-child {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar nav {
+    flex-direction: column;
+    width: -webkit-fill-available;
+  }
+  .navbar div:first-child {
+    justify-content: center;
+  }
+  .navbar nav a {
+    width: -webkit-fill-available;
+  }
+  h1 {
+    font-size: 250%;
+    margin-top: 50%;
+  }
+  .portada {
+    padding: 1rem;
+  }
+  h2 {
+    text-align: center;
+    margin-top: 3vh;
+  }
+  /***************** * start main */
+  main div {
+    flex-direction: column;
+  }
+
+  /***************** * start footer */
+  footer {
+    padding: 2rem;
+    border-radius: 15px;
+  }
+  footer > img {
+    display: none;
+  }
+  footer aside {
+    margin-top: 2rem;
+  }
+}
+
+/* PC screen */
+@media only screen and (min-width: 601px) {
+  /***************** * start header */
+
+  .navbar {
+    justify-content: space-between;
+    margin: 0 1rem;
+    height: 10vh;
+  }
+
+  .navbar nav {
+    justify-content: flex-end;
+  }
+
+  .navbar nav a {
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    text-transform: capitalize;
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+  }
+
+  .portada {
+    background-position-y: bottom;
+  }
+
+  h1 {
+    font-size: 450%;
+    margin-top: 15%;
+  }
+
+  /***************** * start main */
+  main {
+    height: 50vh;
+  }
+
+  article {
+    width: 20vw;
+  }
+  /***************** * start footer */
+  footer {
+    height: 50vh;
+    padding: 4rem;
+  }
+}
