@@ -8,6 +8,10 @@
     src="./apuntes/assets/imgs/css.png"
     width="100rem"
 />
+<img
+    src="./apuntes/assets/imgs/js.png"
+    width="100rem"
+/>
 
 ## IronDiario KrystelDev
 
@@ -115,7 +119,24 @@ Hoy hemos practicado las propiedades de float, links y buttons. Otra actividad c
         <img src="./apuntes/assets/imgs/preview/s2/06preview.png" width="150rem" />
     </td>
     <td>
-        <img src="./apuntes/assets/imgs/preview/s2/07preview.png" width="300rem" />
+        <img src="./apuntes/assets/imgs/preview/s2/07preview.png" width="500rem" />
+    </td>
+    </tr>
+</table>
+
+### HTML && CSS 14-11-22
+
+♨️ Despues de ver los diferentes tipos de variables que hay en js (primitivos y no primitivos), hemos trabajado con el condicional if esle y operadores.
+
+##### Previews:
+
+<table>
+    <tr>
+    <td>
+        <img src="./apuntes/assets/imgs/preview/s3/01preview.png" width="150rem" />
+    </td>
+    <td>
+        <img src="./apuntes/assets/imgs/preview/s3/02preview.png" width="500rem" />
     </td>
     </tr>
 </table>
