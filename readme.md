@@ -133,7 +133,7 @@ Hoy hemos practicado las propiedades de float, links y buttons. Otra actividad c
 <table>
     <tr>
     <td>
-        <img src="./apuntes/assets/imgs/preview/s3/01Preview.png" width="300rem" />
+        <img src="./apuntes/assets/imgs/preview/s3/01preview.png" width="300rem" />
     </td>
     <td>
         <img src="./apuntes/assets/imgs/preview/s3/02preview.png" width="300rem" />
