@@ -1,11 +1,11 @@
 # IronHack
 
 <img
-    src="./Apuntes/assets/imgs/HTML.png"
+    src="./apuntes/assets/imgs/HTML.png"
     width="100rem"
 />
 <img
-    src="./Apuntes/assets/imgs/css.png"
+    src="./apuntes/assets/imgs/css.png"
     width="100rem"
 />
 
@@ -20,30 +20,30 @@
 <table>
     <tr>
     <td>
-        <img src="./Apuntes/assets/imgs/preview/s1/01preview.png" width="300rem" />
+        <img src="./apuntes/assets/imgs/preview/s1/01preview.png" width="300rem" />
     </td>
     <td>
-        <img src="./Apuntes/assets/imgs/preview/s1/02preview.png" width="300rem" />
+        <img src="./apuntes/assets/imgs/preview/s1/02preview.png" width="300rem" />
     </td>
     <td>
-        <img src="./Apuntes/assets/imgs/preview/s1/03preview.png" width="300rem" />
+        <img src="./apuntes/assets/imgs/preview/s1/03preview.png" width="300rem" />
     </td>
     <td>
-        <img src="./Apuntes/assets/imgs/preview/s1/04preview.png" width="300rem" />
+        <img src="./apuntes/assets/imgs/preview/s1/04preview.png" width="300rem" />
     </td>
     </tr>
     <tr>
     <td>
-        <img src="./Apuntes/assets/imgs/preview/s1/05preview.png" width="300rem" />
+        <img src="./apuntes/assets/imgs/preview/s1/05preview.png" width="300rem" />
     </td>
     <td>
-        <img src="./Apuntes/assets/imgs/preview/s1/06preview.png" width="300rem" />
+        <img src="./apuntes/assets/imgs/preview/s1/06preview.png" width="300rem" />
     </td>
     <td>
-        <img src="./Apuntes/assets/imgs/preview/s1/07preview.png" width="300rem" />
+        <img src="./apuntes/assets/imgs/preview/s1/07preview.png" width="300rem" />
     </td>
     <td>
-        <img src="./Apuntes/assets/imgs/preview/s1/08preview.png" width="300rem" />
+        <img src="./apuntes/assets/imgs/preview/s1/08preview.png" width="300rem" />
     </td>
     </tr>
 </table>
@@ -66,13 +66,13 @@ Hemos visto diferentes propiedades de css: tamaño de letra, tipo de letra, gros
 <table>
     <tr>
     <td>
-        <img src="./Apuntes/assets/imgs/preview/s2/01preview.png" width="300rem" />
+        <img src="./apuntes/assets/imgs/preview/s2/01preview.png" width="300rem" />
     </td>
     <td>
-        <img src="./Apuntes/assets/imgs/preview/s2/02preview.png" width="300rem" />
+        <img src="./apuntes/assets/imgs/preview/s2/02preview.png" width="300rem" />
     </td>
     <td>
-        <img src="./Apuntes/assets/imgs/preview/s2/03preview.png" width="300rem" />
+        <img src="./apuntes/assets/imgs/preview/s2/03preview.png" width="300rem" />
     </td>
     </tr>
 </table>
@@ -91,27 +91,31 @@ Hoy hemos practicado las propiedades de float, links y buttons. Otra actividad c
 <table>
     <tr>
     <td>
-        <img src="./Apuntes/assets/imgs/preview/s2/04preview.png" width="300rem" />
+        <img src="./apuntes/assets/imgs/preview/s2/04preview.png" width="300rem" />
     </td>
     <td>
-        <img src="./Apuntes/assets/imgs/preview/s2/05preview.png" width="300rem" />
+        <img src="./apuntes/assets/imgs/preview/s2/05preview.png" width="300rem" />
     </td>
     </tr>
 </table>
 
 ### HTML && CSS 10-11-22
 
-MediaQuery, Forms, Flex vs Grid
+🗃️Flex vs 🗄️Grid. Vimos que de ambas maneras se puede organizar los contnedores de las páginas webs. Pero esta vez hemos ido un paso más allá.
+
+¿Cual es el dispositivo que más consultamos al día?... Tará! Efectivamente el móvil! Es por ello que trabajamos con Media Query para poder adaptar nuestro proyecto en diferentes dispositivos.
+
+💻📲 Media Query. Para que el aricho HTML sepa que debe actuar podemos linkearlo diciendo que para esos screen use otro archivo de css independiente, o podemos podemos poner esa excepción dentro de nuestro codigo CSS.
 
 ##### Previews:
 
 <table>
     <tr>
     <td>
-        <img src="./Apuntes/assets/imgs/preview/s2/04preview.png" width="300rem" />
+        <img src="./apuntes/assets/imgs/preview/s2/06preview.png" width="150rem" />
     </td>
     <td>
-        <img src="./Apuntes/assets/imgs/preview/s2/05preview.png" width="300rem" />
+        <img src="./apuntes/assets/imgs/preview/s2/06preview.png" width="300rem" />
     </td>
     </tr>
 </table>
