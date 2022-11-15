@@ -34,13 +34,15 @@ if (hacker1.length === hacker2.length) {
 // 3.1 Print all the characters of the driver's name, separated by a space and in capitals i.e. "J O H N"
 let hacker1UpperCase = hacker1.toUpperCase();
 let hacker1UpperCaseSpace = [];
-let reckah2 = [];
 
-for (let i = 0; i < hacker1.length; i++) {
-  hacker1UpperCaseSpace.push(hacker1[i].toUpperCase());
-}
-console.log(hacker1UpperCaseSpace.join(" "));
+// no hace falta pasar uno a uno
+// for (let i = 0; i < hacker1.length; i++) {
+//   hacker1UpperCaseSpace.push(hacker1[i].toUpperCase());
+// }
+hacker1UpperCaseSpace = hacker1.toUpperCase().split("").join(" ");
+console.log(hacker1UpperCaseSpace);
 // 3.2 Print all the characters of the navigator's name, in reverse order. i.e. "nhoJ"
+let reckah2 = [];
 
 for (let i = hacker2.length - 1; i >= 0; i--) {
   reckah2.push(hacker2[i]);
