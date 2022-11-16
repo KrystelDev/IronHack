@@ -52,23 +52,13 @@ function sum(numeros) {
   let resultado;
   let notnumber = false;
   let arrayString = [];
+  console.log(numeros);
 
   if (!numeros.length) {
     resultado = 0;
   } else {
     // Propuesta que hacen en clase:
-    // for (let i = 0; i < numeros.length; i++) {
-    //   if (typeof numeros[i] === "string") {
-    //     str = array[i].split("");
-    //     for (let i = 0; i < str.length; i++) {
-    //       resultado += str[i].length;
-    //     }
-    //   } else if (numeros[i] === true) {
-    //     resultado += 1;
-    //   } else {
-    //     resultado += array[i];
-    //   }
-    // }
+
     numeros.forEach((numero) => {
       if (typeof numero != "number") {
         notnumber = true;
@@ -76,17 +66,28 @@ function sum(numeros) {
     });
     // console.log(notnumber);
     if (notnumber) {
-      numeros.forEach((numero) => {
-        arrayString.push(numero.length);
-        resultado = arrayString.reduce((total, num) => total + num);
-      });
+      for (let i = 0; i < numeros.length; i++) {
+        if (typeof numeros[i] === "string") {
+          console.log("Es un string: ");
+          console.log(numeros[i]);
+          console.log(numeros[i].length);
+          arrayString.push(numeros[i].length);
+          for (let i = 0; i < arrayString.length; i++) {
+            resultado += arrayString[i];
+          }
+        } else if (typeof numeros[i] === "number") {
+          resultado += arrayString[i];
+        } else {
+          resultado += numeros[i];
+        }
+      }
     } else {
-      // console.log("tots els strings son numeros");
+      console.log("tots els strings son numeros");
       resultado = numeros.reduce((total, num) => total + num);
     }
   }
 
-  // console.log("Resultado: " + typeof resultado);
+  console.log("Resultado: " + resultado);
   return resultado;
 }
 
