@@ -56,7 +56,6 @@ function sum(numeros) {
   if (!numeros.length) {
     resultado = 0;
   } else {
-    let resultado = 0;
     // Propuesta que hacen en clase:
     // for (let i = 0; i < numeros.length; i++) {
     //   if (typeof numeros[i] === "string") {
