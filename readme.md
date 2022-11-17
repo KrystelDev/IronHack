@@ -153,10 +153,21 @@ Hoy hemos practicado las propiedades de float, links y buttons. Otra actividad c
     <tr>
     <td>
         <img src="./apuntes/assets/imgs/preview/s3/03preview.png" 
-        width="300rem" />
+        width="400rem" />
     </td>
     <td>
-        <img src="./apuntes/assets/imgs/preview/s3/04preview.png" width="300rem" />
+        <img src="./apuntes/assets/imgs/preview/s3/04preview.png" width="400rem" />
     </td>
     </tr>
 </table>
+
+### HTML && CSS 16-11-22
+
+⏱️ Seguimos ocn la dinamica de dedicar dos horas para finalizar las entregas. Creo que si seguimos igual de buen ritmo con las clases teoricas es posible que esta organización se quede
+
+👩🏻‍🍳 JS es muy grande y sabemos que aun queda chicha para repartir. Para seguir con js vanilla necesitamos tener un buen conocimiento de los selectores que se usan en el DOM. ASí que continuamos, apuntar, crear, posicionar, modificar y eliminar. Un dia completo!
+
+##### Preview:
+
+<img src="./apuntes/assets/imgs/preview/s3/03preview.png" 
+        width="80vw" />
