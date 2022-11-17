@@ -1,6 +1,8 @@
 // Iteration 1: All directors? - Get the array of all directors.
 // _Bonus_: It seems some of the directors had directed multiple movies so they will pop up multiple times in the array of directors.
 // How could you "clean" a bit this array and make it unified (without duplicates)?
+console.log("hola");
+
 function getAllDirectors(moviesArray) {
   let result = moviesArray.map((pelicula) => {
     return pelicula.director;
@@ -8,6 +10,16 @@ function getAllDirectors(moviesArray) {
   console.log("Iteration 1->", result);
   return result;
 }
+
+// // Bonus:
+// function getAllDirectors(moviesArray) {
+//   let arrayDirector = moviesArray.map((pelicula) => {
+//     return pelicula.director;
+//   });
+//   let result = arrayDirector.filter((director, posición) => {
+//     arrayDirector.indexOf(director) === posición;
+//   });
+// }
 
 // Iteration 2: Steven Spielberg. The best? - How many drama movies did STEVEN SPIELBERG direct?
 function howManyMovies(moviesArray) {
@@ -94,16 +106,43 @@ function orderByYear(moviesArray) {
 // Iteration 6: Alphabetic Order - Order by title and print the first 20 titles
 function orderAlphabetically(moviesArray) {
   let result;
-  let arrayNew = moviesArray.slice(0, 19);
+  let arrayNew = moviesArray.sort((a, b) => {
+    const titleA = a.title;
+    const titleB = b.title;
+    if (titleA < titleB) {
+      return -1;
+    }
+    if (titleA > titleB) {
+      return 1;
+    }
+    return 0;
+  });
+  let arrayNewOrder = arrayNew.slice(0, 20);
 
-  console.log(arrayNew);
-  result = arrayNew;
+  result = arrayNewOrder.map((movie) => movie.title);
 
+  console.log("Iteration 6->", result);
   return result;
 }
 
 // BONUS - Iteration 7: Time Format - Turn duration of the movies from hours to minutes
-function turnHoursToMinutes(moviesArray) {}
+function turnHoursToMinutes(moviesArray) {
+  let result;
+  const arrayNew = [...moviesArray]; // Operador spread (de propagación) en Javascript ES6
+
+  result = arrayNew.map((movie) => {
+    // calcular horas enteras:
+    console.log("Dentro map");
+    console.log(movie.duration);
+    const horas = parseInt(movie.duration / 60);
+    // calcular minutos si queda:
+    const minutos = movie.duration % 60;
+    const horasMinutos = `${horas}h ${minutos}min`;
+    movie.duration = horasMinutos;
+  });
+  console.log("Iteration 7->", result);
+  return result;
+}
 
 // BONUS - Iteration 8: Best yearly score average - Best yearly score average
 function bestYearAvg(moviesArray) {}
