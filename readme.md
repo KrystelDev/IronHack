@@ -170,4 +170,4 @@ Hoy hemos practicado las propiedades de float, links y buttons. Otra actividad c
 ##### Preview:
 
 <img src="./apuntes/assets/imgs/preview/s3/03preview.png" 
-        width="80vw" />
+        width="600rem" />
