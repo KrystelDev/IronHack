@@ -140,3 +140,23 @@ Hoy hemos practicado las propiedades de float, links y buttons. Otra actividad c
     </td>
     </tr>
 </table>
+
+### HTML && CSS 15-11-22
+
+⏱️ Se va notando la presión contrareloj que tenemos. Más información = a entregas las elaboradas y largas. Aprovechamos las primeras dos horas de la mañana para finalizar las entregar y hacer los ultimos retoques.
+
+📝 De teoria seguimos con JS. En el apartado de los condiciones añadimos a la lista switch. Continuamos con los diferentes buscles (for, foreach, while, for in...), metodos de array y practicamos! practicamos! practicamos!
+
+##### Previews:
+
+<table>
+    <tr>
+    <td>
+        <img src="./apuntes/assets/imgs/preview/s3/03preview.png" 
+        width="300rem" />
+    </td>
+    <td>
+        <img src="./apuntes/assets/imgs/preview/s3/04preview.png" width="300rem" />
+    </td>
+    </tr>
+</table>
