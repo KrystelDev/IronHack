@@ -8,6 +8,7 @@ function updateSubtotal(product) {
   subtotalHTML.innerText = subtotal;
   console.log('Calculating subtotal, yey!');
   console.log(subtotalHTML);
+  return subtotal;
 
   //... your code goes here
 }
@@ -16,15 +17,14 @@ function calculateAll() {
   // code in the following two lines is added just for testing purposes.
   // it runs when only iteration 1 is completed. at later point, it can be removed.
 
-  // ITERATION 2
+  // ITERATION 2 and 3
   let allProducts = document.querySelectorAll('.product');
   console.log(allProducts);
+  let total = 0;
   for (let index = 0; index < allProducts.length; index++) {
-    updateSubtotal(allProducts[index]);
+    total += updateSubtotal(allProducts[index]);
   }
-  //... your code goes here
-  // ITERATION 3
-  //... your code goes here
+  document.querySelector('#total-value').lastChild.innerText = total;
 }
 
 // ITERATION 4
