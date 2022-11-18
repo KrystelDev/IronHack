@@ -76,6 +76,8 @@ function orderByYear(moviesArray) {
   let result;
   const arrayNew = [...moviesArray]; // Operador spread (de propagación) en Javascript ES6
 
+  //more info .sort whit condicional
+  // https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
   result = arrayNew.sort(function (a, b) {
     // Le digo que mire únicamente la propiedad year
     const yearA = a.year;
@@ -127,20 +129,27 @@ function orderAlphabetically(moviesArray) {
 
 // BONUS - Iteration 7: Time Format - Turn duration of the movies from hours to minutes
 function turnHoursToMinutes(moviesArray) {
+  console.log("____ENTRA____");
+  // console.log(moviesArray);
   let result;
-  const arrayNew = [...moviesArray]; // Operador spread (de propagación) en Javascript ES6
+  let arrayNew = [...moviesArray]; // Operador spread (de propagación) en Javascript ES6
+  let duracionGeneral;
+  let horas;
+  let minutos;
 
   result = arrayNew.map((movie) => {
     // calcular horas enteras:
     console.log("Dentro map");
-    console.log(movie.duration);
-    const horas = parseInt(movie.duration / 60);
-    // calcular minutos si queda:
-    const minutos = movie.duration % 60;
-    const horasMinutos = `${horas}h ${minutos}min`;
-    movie.duration = horasMinutos;
+    duracionGeneral = movie.duracion
+      .replace(" ", "")
+      .split("h")
+      .replace("min", "");
+    console.log(duracionGeneral);
+    horas = parseInt(duracionGeneral[0]);
+    minutos = parseInt(duracionGeneral[1]);
+    movie.duration = horas + minutos;
   });
-  console.log("Iteration 7->", result);
+  console.log("Iteration 7->" + result);
   return result;
 }
 
