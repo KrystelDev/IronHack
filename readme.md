@@ -143,9 +143,9 @@ Hoy hemos practicado las propiedades de float, links y buttons. Otra actividad c
 
 ### HTML && CSS 15-11-22
 
-⏱️ Se va notando la presión contrareloj que tenemos. Más información = a entregas las elaboradas y largas. Aprovechamos las primeras dos horas de la mañana para finalizar las entregar y hacer los ultimos retoques.
+⏱️ Se va notando la presión contrarreloj que tenemos. Más información = a entregas las elaboradas y largas. Aprovechamos las primeras dos horas de la mañana para finalizar las entrega y hacer los últimos retoques.
 
-📝 De teoria seguimos con JS. En el apartado de los condiciones añadimos a la lista switch. Continuamos con los diferentes buscles (for, foreach, while, for in...), metodos de array y practicamos! practicamos! practicamos!
+📝 De teoría seguimos con JS. En el apartado de los condiciones añadimos a la lista switch. ¡Continuamos con los diferentes bucles (for, foreach, while, for in...), métodos de array y practicamos! Practicamos! practicamos!
 
 ##### Previews:
 
@@ -163,11 +163,33 @@ Hoy hemos practicado las propiedades de float, links y buttons. Otra actividad c
 
 ### HTML && CSS 16-11-22
 
-⏱️ Seguimos ocn la dinamica de dedicar dos horas para finalizar las entregas. Creo que si seguimos igual de buen ritmo con las clases teoricas es posible que esta organización se quede
+⏱️ Seguimos con la dinámica de dedicar dos horas para finalizar las entregas. Creo que si seguimos igual de buen ritmo con las clases teóricas es posible que esta organización se quede
 
-👩🏻‍🍳 JS es muy grande y sabemos que aun queda chicha para repartir. Para seguir con js vanilla necesitamos tener un buen conocimiento de los selectores que se usan en el DOM. ASí que continuamos, apuntar, crear, posicionar, modificar y eliminar. Un dia completo!
+👩🏻‍🍳 JS es muy grande y sabemos que aún queda chicha para repartir. Para seguir con js vanilla necesitamos tener un buen conocimiento de los selectores que se usan en el DOM. Así que continuamos, apuntar, crear, posicionar, modificar y eliminar. ¡Un día completo!
 
 ##### Preview:
 
 <img src="./apuntes/assets/imgs/preview/s3/05preview.png" 
+        width="800rem" />
+
+### HTML && CSS 17-11-22
+
+👩🏻‍🏫 En la práctica está el maestro. Esta parece la regla por excelencia de aprendizaje en programación. Por la mañana dos horas para seguir trabajando con el laboratorio que empezamos el día anterior.
+
+🛒 Este laboratorio es muy interesante, se trata de simular la vista de un carrito y su lógica. Añadir o reducir cantidad, calcular el importe total de cada producto según la cantidad elegida, el subtotal de coste de todos los productos añadidos en cesta...
+
+##### Preview:
+
+<img src="./apuntes/assets/imgs/preview/s3/06preview.png" 
+        width="800rem" />
+
+### HTML && CSS 18-11-22
+
+🍿 Hoy seguimos con otra práctica muyyy interesante. En este caso tenemos un listado de películas. Nos piden más de 6 ejercicios donde en cada uno debemos pasar más de 4 test. Hacer un buscador de las películas por director, ordenar las películas de más nuevas a más antiguas y en caso de que sean del mismo año se ordenarían por orden alfabético, filtrar de las películas de X director, las que son de género drama, hacer una lista de las 20 mejores películas según su valoración, hacer una media de valoración de películas etc.
+
+🤞🏻 Te lo prometo! le dijo el archivo JS al developer... Por la tarte estuvimos hablando de la asincronia y las promesas. con el tiempo final que quedó estuvimos haciendo pequeños ejericios en común.
+
+##### Preview:
+
+<img src="./apuntes/assets/imgs/preview/s3/07preview.png" 
         width="800rem" />
