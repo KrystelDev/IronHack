@@ -193,3 +193,12 @@ Hoy hemos practicado las propiedades de float, links y buttons. Otra actividad c
 
 <img src="./apuntes/assets/imgs/preview/s3/07preview.png" 
         width="800rem" />
+
+### HTML && CSS 21-11-22
+
+🤞🏻 Promesas, promesas y más promesas... Por lo menos en JS nunca incumplen su palabra.
+
+##### Preview:
+
+<!-- <img src="./apuntes/assets/imgs/preview/s3/07preview.png"
+        width="800rem" /> -->
