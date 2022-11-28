@@ -8,7 +8,7 @@
 <script setup>
     import {ref} from "vue";
 
-    let probando = true;
+let probando = ref(true);
     let text;
 
     probando ?  text = "Esto es una prueba" : "No podemos ver la prueba";
