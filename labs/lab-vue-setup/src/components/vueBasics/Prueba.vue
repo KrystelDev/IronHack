@@ -8,10 +8,16 @@
 <script setup>
     import {ref} from "vue";
 
-let probando = ref(true);
+    let probando = ref(true);
     let text;
 
     probando ?  text = "Esto es una prueba" : "No podemos ver la prueba";
+    const helloWorld = () => {
+        console.log("Hello World")
+    }
+
+    helloWorld();
+    
 </script>
 
 <style>
