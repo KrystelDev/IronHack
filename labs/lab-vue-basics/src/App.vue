@@ -1,7 +1,12 @@
 <script setup>
-import Footer from './components/Footer.vue'
-import NavBar from './components/Navbar.vue'
 
+import NavBar from './components/Navbar.vue'
+import Exercice from './components/Exercice.vue'
+import Exercice3 from './components/Exercice3.vue'
+import Footer from './components/Footer.vue'
+
+// Exercici3
+const show = true;
 
 </script>
 
@@ -12,7 +17,8 @@ import NavBar from './components/Navbar.vue'
     </header>
     
     <main>
-      NADA
+      <Exercice />
+      <Exercice3 v-show="show"></Exercice3>
     </main>
     
     <Footer />

@@ -1,11 +1,12 @@
-
 <script setup>
+
+
 
 </script>
 
 <template>
     <div class="exercice">
-        <h2>Ejercico 1</h2>
+        <h2>Ejercico 1 - Navbar</h2>
     </div>
 </template>
 

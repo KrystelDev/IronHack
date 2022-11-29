@@ -5,7 +5,7 @@
 
 <template>
     <div class="exercice">
-        <h2>Ejercico 2</h2>
+        <h2>Ejercico 1 - Footer</h2>
 
     </div>
 </template>
