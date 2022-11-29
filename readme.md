@@ -287,7 +287,7 @@ Primer contacto con el frameworks vue. Aprendemos los comando para iniciar y des
 
 Repasamos en conjunto el laboratorio que preparamos ayer individualmente.
 
-Vemos algunos v-bind que ya empezamos ayer. En esta categoría también vemos el @click. Invetigando por mi cuenta veo otros como el v-model para vincular el valor verdadero desde la variable que inserte. con esta misma sintaxys trabajamos los v-if, v-else, v-else-if y sus diferencias con v-show.
+Vemos algunos v-bind que ya empezamos ayer. En esta categoría también vemos el @click. Invetigando por mi cuenta veo otros como el v-model para vincular el valor verdadero desde la variable que inserte. con esta misma sintaxys trabajamos los v-if, v-else, v-else-if y sus diferencias con v-sho
 
 Otra parte interesante que vemos es como armar el proyecto con vue-router.
 
