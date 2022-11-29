@@ -1,8 +1,9 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import MyFirstCompomentVue from './components/vueBasics/MyFirstCompoment.vue';
-import MySecondComponentVue from './components/vueBasics/MySecondComponent.vue';
-import MyThirdComponentVue from './components/vueBasics/MyThirdComponent.vue';
+// import MyFirstCompomentVue from './components/vueBasics/MyFirstCompoment.vue';
+// import MySecondComponentVue from './components/vueBasics/MySecondComponent.vue';
+// import MyThirdComponentVue from './components/vueBasics/MyThirdComponent.vue';
+import iterating from './components/vueBasics/7-ITeratingElements.vue'
 
 </script>
 
@@ -15,9 +16,10 @@ import MyThirdComponentVue from './components/vueBasics/MyThirdComponent.vue';
   </header>
     
   <main>
-    <MyFirstCompomentVue />
+    <iterating />
+    <!-- <MyFirstCompomentVue />
     <MySecondComponentVue />
-    <MyThirdComponentVue />
+    <MyThirdComponentVue /> -->
   </main>
 </template>
 
@@ -26,20 +28,11 @@ header {
   line-height: 1.5;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
 @media (min-width: 1024px) {
   header {
     display: flex;
     place-items: center;
     padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
   }
 
   header .wrapper {
