@@ -57,7 +57,7 @@
         <hr />
         <ul>
           <li v-for="(value, pepito, index) in myInfo" :key="index">
-            {{ value }} - {{ index }} - {{ pepito }}
+            {{ value }} - {{ index }} - {{ pepito }} 
           </li>
         </ul>
       </ul>
