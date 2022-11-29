@@ -3,6 +3,7 @@
 import NavBar from './components/Navbar.vue'
 import Exercice from './components/Exercice.vue'
 import Exercice3 from './components/Exercice3.vue'
+import Exercice4 from './components/Exercice4.vue'
 import Footer from './components/Footer.vue'
 
 // Exercici3
@@ -19,6 +20,7 @@ const show = true;
     <main>
       <Exercice />
       <Exercice3 v-show="show"></Exercice3>
+      <Exercice4 />
     </main>
     
     <Footer />
