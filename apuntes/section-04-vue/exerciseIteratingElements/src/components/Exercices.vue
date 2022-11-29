@@ -1,5 +1,14 @@
 <template>
-    
+    <hr>
+    <div>
+      <h2>Ejercicio 1</h2>
+      <h3>My favorite Movies</h3>
+      <ul>
+        <li v-for="(top5Pelis, index) in top5Pelis" :key="index">
+          {{ index+1}} - {{ top5Pelis }}
+        </li>
+      </ul>
+    </div>
     
 </template>
 
@@ -10,6 +19,18 @@
 // Creamos la estructura básica de un componente de vue en la que vamos a mostrar el resultado de los ejercicios. Recordad importar el componente donde sea necesario para poder ver el avance de vuestros ejercicios.
 
 // Ej.1: Creamos una variable reactiva que contenga un array con vuestras cinco películas preferidas. En el template pondremos un título de My favorite Movies y después una <ol>. Dentro de la ordered list recorreremos el array de películas y crearemos un <li> para cada una que nos las printee en pantalla. A cada <li> le daremos el index del elemento en el array como key.
+
+import { reactive } from "vue";
+
+// Iterating Arrays
+const top5Pelis = reactive([
+  "Encantada",
+  "Miercoles",
+  "in side",
+  "ring",
+  "Feliz navidad",
+  "Solo en casa",
+]);
 
 // Ej.2:  Creamos una variable reactiva que contenga un objeto con cinco keys: favoriteFood, favoriteDrink, favoriteSport, favoriteCountry y favoriteArrayMethod. En el template vamos a recorrer el objeto para mostrar cada key y su valor en una unoredered list (en pantalla deberíamos ver algo como "favoriteFood: Sushi").
 
