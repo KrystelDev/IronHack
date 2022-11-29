@@ -1,6 +1,7 @@
 <script setup>
-// import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue'
 import Exercices from './components/Exercices.vue'
+
 </script>
 
 <template>
@@ -8,8 +9,6 @@ import Exercices from './components/Exercices.vue'
     
     <div class="wrapper">
       <HelloWorld msg="Respuestas Krystel:" />
-      
-
     </div>
   </header>
 
