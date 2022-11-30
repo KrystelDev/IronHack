@@ -23,7 +23,7 @@ import MyBio from "./components/Mybio.vue";
       name="Krystel Dev"
       age=33
       birthPlace="Barcelona, España"
-      currentLocation="Barcelona, Ehhpaña"
+      currentLocation="Barcelona, España"
     />
   </main>
 </template>
