@@ -295,5 +295,5 @@ Otra parte interesante que vemos es como armar el proyecto con vue-router.
 
 ##### Preview:
 
-<!-- <img src="./apuntes/assets/imgs/preview/s4/01preview.png"
-        width="800rem" /> -->
+<img src="./apuntes/assets/imgs/preview/s4/02preview.png"
+        width="800rem" />
