@@ -3,7 +3,7 @@ import HelloWorld from './components/HelloWorld.vue'
 // import MyFirstCompomentVue from './components/vueBasics/MyFirstCompoment.vue';
 // import MySecondComponentVue from './components/vueBasics/MySecondComponent.vue';
 // import MyThirdComponentVue from './components/vueBasics/MyThirdComponent.vue';
-import iterating from './components/vueBasics/7-ITeratingElements.vue'
+import CompPrope from './components/vueBasics/8-ComputedProperties.vue'
 
 </script>
 
@@ -16,7 +16,7 @@ import iterating from './components/vueBasics/7-ITeratingElements.vue'
   </header>
     
   <main>
-    <iterating />
+    <CompPrope />
     <!-- <MyFirstCompomentVue />
     <MySecondComponentVue />
     <MyThirdComponentVue /> -->
