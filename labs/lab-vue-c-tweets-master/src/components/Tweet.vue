@@ -8,7 +8,7 @@ import Actions from './Actions.vue'
 // import { ref, reactive } from "vue";
 
 defineProps({
-  tweet: {
+  tweets: {
     type: Object,
     required: false,
   },
@@ -17,7 +17,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="tweet">
+  <div v-for="(tweet, index) in tweets" :key="index" class="tweet">
     <ProfileImage :image="tweet.user.image" />
 
     <div class="body">
