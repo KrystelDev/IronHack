@@ -283,7 +283,7 @@ Primer contacto con el frameworks vue. Aprendemos los comando para iniciar y des
 <img src="./apuntes/assets/imgs/preview/s4/01preview.png"
         width="800rem" />
 
-### VUE 28-11-22
+### VUE 28-11-22 y 29-11-22
 
 Repasamos en conjunto el laboratorio que preparamos ayer individualmente.
 
@@ -297,3 +297,16 @@ Otra parte interesante que vemos es como armar el proyecto con vue-router.
 
 <img src="./apuntes/assets/imgs/preview/s4/02preview.png"
         width="800rem" />
+
+### VUE 30-11-22 y 1-12-22
+
+Vemos como se puede hacer style dinamicos con variables sin ninguna libreria, desde :style y/o :class. También entramos en más materia y vemos los slot de vue y como se pasan los props de padres a hijos.
+
+Despues de algunos ejericios en clase nos presentan un lab de tweets. Nos dejan 3horas para entregarlo. Allá vamos!
+
+##### Preview:
+
+... En construcción. Muy pronto lo vereis ;-) ...
+
+<!-- <img src="./apuntes/assets/imgs/preview/s4/02preview.png"
+        width="800rem" /> -->
