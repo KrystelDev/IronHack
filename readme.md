@@ -306,7 +306,5 @@ Despues de algunos ejericios en clase nos presentan un lab de tweets. Nos dejan 
 
 ##### Preview:
 
-... En construcción. Muy pronto lo vereis ;-) ...
-
-<!-- <img src="./apuntes/assets/imgs/preview/s4/02preview.png"
-        width="800rem" /> -->
+<img src="./apuntes/assets/imgs/preview/s4/03preview.png"
+        width="800rem" />
