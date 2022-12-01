@@ -21,9 +21,10 @@ import MyBio from "./components/Mybio.vue";
   <main>
     <MyBio
       name="Krystel Dev"
-      age=33
+      :age=33
       birthPlace="Barcelona, España"
       currentLocation="Barcelona, España"
+      hermanaName="Ylenia Logop"
     />
   </main>
 </template>
