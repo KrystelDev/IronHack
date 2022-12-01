@@ -1,9 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-// import MyFirstCompomentVue from './components/vueBasics/MyFirstCompoment.vue';
-// import MySecondComponentVue from './components/vueBasics/MySecondComponent.vue';
-// import MyThirdComponentVue from './components/vueBasics/MyThirdComponent.vue';
-import CompPrope from './components/vueBasics/8-ComputedProperties.vue'
+import ExerciceTwoWayData from './components/vueBasics/9- Exercice TwoWayData.vue'
 
 </script>
 
@@ -16,10 +13,7 @@ import CompPrope from './components/vueBasics/8-ComputedProperties.vue'
   </header>
     
   <main>
-    <CompPrope />
-    <!-- <MyFirstCompomentVue />
-    <MySecondComponentVue />
-    <MyThirdComponentVue /> -->
+    <ExerciceTwoWayData  />
   </main>
 </template>
 
