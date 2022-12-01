@@ -304,6 +304,8 @@ Vemos como se puede hacer style dinamicos con variables sin ninguna libreria, de
 
 Despues de algunos ejericios en clase nos presentan un lab de tweets. Nos dejan 3horas para entregarlo. Allá vamos!
 
+Nos dejan para practicar en casa la realización de un formulario.
+
 ##### Preview:
 
 <img src="./apuntes/assets/imgs/preview/s4/03preview.png"
