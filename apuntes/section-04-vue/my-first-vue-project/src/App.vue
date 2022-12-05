@@ -1,6 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import ExerciceTwoWayData from './components/vueBasics/9- Exercice TwoWayData.vue'
+import Exercice from './components/vueBasics/Counter.vue'
 
 </script>
 
@@ -13,7 +13,7 @@ import ExerciceTwoWayData from './components/vueBasics/9- Exercice TwoWayData.vu
   </header>
     
   <main>
-    <ExerciceTwoWayData  />
+    <Exercice />
   </main>
 </template>
 
