@@ -310,3 +310,17 @@ Nos dejan para practicar en casa la realización de un formulario.
 
 <img src="./apuntes/assets/imgs/preview/s4/03preview.png"
         width="800rem" />
+
+### VUE 2-12-22 y 3-12-22
+
+Props, evento en vue (@click), propiedades computadas, vigilantes (watch)
+
+### VUE 4-12-22
+
+Gestión de estados (Pinia), supabase...
+
+Presentación de Proyecto Vue.
+
+### VUE 5-12-22
+
+Router con router para usuarios (onMountes(...fetchUser()...)), versel para ver proyecto desde cualquer dispositivo...
